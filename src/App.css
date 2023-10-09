@@ -1,0 +1,111 @@
+/* App.css */
+body {
+    margin: 0; /* Reset default margin */
+    padding: 0; /* Reset default padding */
+    background-image: url("./photo-1475274047050-1d0c0975c63e.avif");
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+    /* Other CSS styles */
+    font-family: sans-serif; /* Add your preferred font-family */
+  }
+  
+  .App {
+    text-align: center; /* Center align content */
+  }
+  /* App.css */
+  /* App.css */
+  
+  /* Gray Theme */
+  .App.gray-theme {
+    background-color:rgb(15, 15, 17);
+    color: whitesmoke;
+  }
+  
+  /* Black Theme */
+  .App.black-theme {
+    background-image: url("https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80");
+    color:darkcyan;
+  }
+  
+  /* Button styling */
+  .theme-button {
+    background-color: rgb(24, 24, 43);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  /* Navbar.css */
+  .navbar {
+    background-color: rgb(0,3,22);
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .navbar-logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .navbar-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 1.25rem;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
+  .social-icons a:hover {
+    color: #007bff;
+  }
+  
+  /* CenteredImageContainer.css */
+  
+  .centered-image-container {
+    margin-top: 20%;
+    width: 1800px;
+    margin-left: 20px;
+    height:52vh;
+  background-color:whitesmoke;
+  
+  
+  }
+  .centre{
+    height: 150px; 
+     border-radius: 10px;
+    margin-top: -80px;
+    background-color: whitesmoke;
+  }
+  .font{
+    font-style:inherit;
+    color:rgb(52,55,57);
+  }
+  .ficon{
+    color:rgb(52,55,57) ;
+  height: 60px;
+  
+  }
+  .para{
+    text-align: center;
+    margin-left: 50px;
+    height: 20px;
+  }
